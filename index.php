@@ -638,17 +638,14 @@ echo ' teste => ' . $endereco . ' |';*/
 
             if (grupoPintura != '0') {
                 if(grupoPintura == ' Basica'){
-                    qtdCheckTubo.style.display = "block";
+                    qtdCheckGrupoPintura .style.display = "block";
+                    //valorPintura./style.display = "block";
+                    var valorGrupoPintura = 45.47;
+                }else if(grupoPintura == 'Especial'){
+                    qtdCheckGrupoPintura.style.display = "block";
                     //valorPintura.style.display = "block";
-                    var valorTubo = 9.07;
-                }else if(tubo == '50X30'){
-                    qtdCheckTubo.style.display = "block";
-                    //valorPintura.style.display = "block";
-                    var valorTubo = 13.34;
-                }else if(tubo == '60X40'){
-                    qtdCheckTubo.style.display = "block";
-                    //valorPintura.style.display = "block";
-                    var valorTubo = 18.53;
+                    var valorGrupoPintura = 57.13;
+                }
 
             //Calcular o valor da pintura
 
